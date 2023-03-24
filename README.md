@@ -60,3 +60,15 @@ Use the `/blipcreator` command to open the UI and enter the settings for your ne
   - Framework dependent, referring to jobs, gangs, etc.
 - Grade
   - The minimum grade to allow access for the group (0 to allow all).
+
+## Credits
+
+- [oxmysql](https://github.com/overextended/oxmysql) by Overextended
+- [ox_doorlock](https://github.com/overextended/ox_doorlock) by Overextended
+- [ds_blipcreator](https://github.com/dolaji-op/ds_blipcreator) by Dolaji
+
+## Contact
+
+If you have any questions or feedback, please join our [Discord server](https://discord.gg/dolaji-s-scripts-952174929518936114) and let us know!
+
+[![Discord Server](https://img.shields.io/discord/123456789012345678?color=7289DA&label=Discord&logo=discord&logoColor=ffffff)](https://discord.gg/dolaji-s-scripts-952174929518936114)
