@@ -71,8 +71,8 @@ jobs:
         run: |
           mkdir -p ./temp/ds_blipcreator
           mkdir -p ./temp/ds_blipcreator/web/
-          cp ./{LICENSE,README.md,fxmanifest.lua,config.lua} ./temp/ds_blipcreator
-          cp -r ./{client,convert,server,sql,locales} ./temp/ds_blipcreator
+          cp ./{LICENSE,README.md,fxmanifest.lua} ./temp/ds_blipcreator
+          cp -r ./{client,server} ./temp/ds_blipcreator
           cp -r ./web/build ./temp/ds_blipcreator/web/
           cd ./temp && zip -r ../ds_blipcreator.zip ./ds_blipcreator
 
