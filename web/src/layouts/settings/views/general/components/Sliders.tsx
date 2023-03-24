@@ -1,4 +1,4 @@
-import {Slider, Text, Flex, SimpleGrid } from '@mantine/core';
+import {Slider, Text, Col, SimpleGrid } from '@mantine/core';
 import { useStore, useSetters } from '../../../../../store';
 
 const Sliders: React.FC = () => {
@@ -10,25 +10,20 @@ const Sliders: React.FC = () => {
 
   return (
     <>
-
-
-
-
       <SimpleGrid cols={2} pt={16}>
+        <Col>
+          <Text size="sm">
+            Blip Scale
+          </Text>
+          <Slider value={blipScale || 1} onChange={setblipScale} />
+        </Col>
 
-      <Flex direction="column" wrap="wrap">
-        <Text size="sm">
-          Blip Scale
-        </Text>
-        <Slider value={blipScale || 1} onChange={setblipScale} />
-      </Flex>
-
-      <Flex direction="column" wrap="wrap">
-        <Text size="sm">
+        <Col>
+          <Text size="sm">
           Blip Opacity
-        </Text>
+          </Text>
         <Slider value={blipAlpha || 255} min={0} max={255} onChange={setblipAlpha} />
-      </Flex>
+        </Col>
         </SimpleGrid>
     </>
   );
