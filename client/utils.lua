@@ -20,7 +20,7 @@ RegisterNUICallback('teleportToBlip', function(id, cb)
     SetNuiFocus(false, false)
     local blipCoords = blips[id].coords
     if not blipCoords then return end
-    SetEntityCoords(cache.ped, blipCoords.x, blipCoords.y, blipCoords.z)
+    SetEntityCoords(PlayerPedId(), blipCoords.x, blipCoords.y, blipCoords.z)
 end)
 
 RegisterNUICallback('exit', function(_, cb)
