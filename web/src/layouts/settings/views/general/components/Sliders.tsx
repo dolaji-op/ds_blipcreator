@@ -11,19 +11,19 @@ const Sliders: React.FC = () => {
   return (
     <>
       <SimpleGrid cols={2} pt={16}>
-        <Col>
+        {/* <Col> */}
           <Text size="sm">
             Blip Scale
           </Text>
           <Slider value={blipScale || 1} onChange={setblipScale} />
-        </Col>
+        {/* </Col> */}
 
-        <Col>
+        {/* <Col> */}
           <Text size="sm">
           Blip Opacity
           </Text>
         <Slider value={blipAlpha || 255} min={0} max={255} onChange={setblipAlpha} />
-        </Col>
+        {/* </Col> */}
         </SimpleGrid>
     </>
   );
