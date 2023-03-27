@@ -6,7 +6,7 @@ game         'gta5'
 
 --[[ Resource Information ]]--
 name         'ds_blipcreator'
-version      '0.1.5'
+version      '0.1.6'
 license      'GPL-3.0-or-later'
 author       'dolaji-op'
 repository   'https://github.com/dolaji-op/ds_blipcreator'
