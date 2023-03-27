@@ -2,7 +2,7 @@ if not LoadResourceFile(GetCurrentResourceName(), 'web/build/index.html') then
 	print('Unable to load UI. Build ds_blipcreator or download the latest release.\n	^3https://github.com/overextended/ds_blipcreator/releases/latest/download/ds_blipcreator.zip^0')
 end
 
-TriggerServerEvent('ds_blipcreator:getBlips')
+-- TriggerServerEvent('ds_blipcreator:getBlips')
 
 local function createblip(blip)
 	blip.zone = GetLabelText(GetNameOfZone(blip.coords.x, blip.coords.y, blip.coords.z))
