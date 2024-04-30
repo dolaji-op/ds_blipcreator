@@ -15,6 +15,10 @@ mysql-async is no longer supported.
   - people use older versions which do not support parameters as arrays
   - it isn't maintained and has issues that will never be resolved
 
+## Instalaction
+Just run the runme.sql file to your database.
+
+
 ## Usage
 
 Use the `/blipcreator` command to open the UI and enter the settings for your new blip.
