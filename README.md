@@ -2,7 +2,7 @@
 
 Blip management resource, with compatibility for qb-core, and es_extended.
 
-_The UI needs to be built - use the [latest release]([https://github.com/dolaji-op/ds_blipcreator/releases/latest/download/ds_blipcreator.zip](https://drive.google.com/file/d/1_fxiXNCZ5QuEEJEJ0A1SEh3940uLSDHW/view?usp=sharing)) if you want to drag-n-drop._
+_The UI needs to be built - use the [latest release]([https://drive.google.com/file/d/1_fxiXNCZ5QuEEJEJ0A1SEh3940uLSDHW/view?usp=sharing](https://drive.google.com/file/d/1_fxiXNCZ5QuEEJEJ0A1SEh3940uLSDHW/view?usp=sharing)) if you want to drag-n-drop._
 
 ## Dependencies
 
